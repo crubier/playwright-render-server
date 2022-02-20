@@ -1,0 +1,32 @@
+{
+  "name": "@sterblue/playwright-render-server",
+  "version": "1.0.0",
+  "description": "A NodeJS Playwright server that serves web pages rendered to JPEG.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "swc-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crubier/playwright-render-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crubier/playwright-render-server/issues"
+  },
+  "homepage": "https://github.com/crubier/playwright-render-server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "playwright": "^1.19.1",
+    "swc-node": "^1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "querystring": "^0.2.1",
+    "url": "^0.11.0"
+  }
+}
